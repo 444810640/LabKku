@@ -135,7 +135,7 @@ public class KkuSystem implements OptionalReserveTasks, FileNames, ReserveTasks 
 		
 	}
 	public static void main(String args[]) {
-		reservations.add(new ReserveBlock(new Person("Mohammed","0",0),LocalDate.parse("2023-12-12"),12,new LabRoom("18S")));
+		reservations.add(new ReserveBlock(new Person("Othman","0",0),LocalDate.parse("2023-12-12"),12,new LabRoom("18S")));
 		new KkuSystem().showCLIMenu();
 	}
 
